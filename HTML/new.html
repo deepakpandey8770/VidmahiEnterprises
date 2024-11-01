@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css"> <!-- Check path for CSS file -->
+    <script src="https://kit.fontawesome.com/13376b3a1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><img src="../images/logo.png" alt="Vidmahi Enterprises Logo"> <!-- Added meaningful alt text -->
+                </h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Welcome to <span>Vidmahi <br>Enterprises</span>!</h2>
+                <p>Your trusted partner in petrol pump canopies and materials.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------about---------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1><br>
+                    <div class="tab-titles">
+                        <p><strong class="tab-links active-link" onclick="opentab('Who We Are')">Who We Are</strong></p><br>
+                        <p>Vidmahi Enterprises is a leading manufacturer and provider of petrol pump canopies and materials, dedicated to serving the fuel station industry with innovative and high-quality solutions. Founded with a vision to transform the fuel retail landscape, we have established ourselves as a trusted partner for petrol station owners looking for durable and aesthetically pleasing canopies.</p><br><br>
+                        <p><strong class="tab-links" onclick="opentab('Our Mission')">Our Mission</strong></p><br> <!-- Corrected "Our Missions" to "Our Mission" for consistency -->
+                        <p>Our mission is to deliver exceptional products that enhance the visibility and functionality of petrol stations while ensuring safety and durability. We strive to exceed customer expectations through our commitment to quality, innovation, and outstanding service.</p><br>
+
+                        <p><strong class="tab-links" onclick="opentab('What We Offer')">What We Offer</strong></p><br>
+                        <p>At Vidmahi Enterprises, we offer a comprehensive range of petrol pump canopies designed to meet the diverse needs of our clients. Our products include:</p><br>
+                        <ul>
+                            <li><strong>Custom Canopies:</strong> Tailored designs that fit the specific requirements of your fuel station.</li><br> <!-- Consider removing <br> and use CSS for spacing -->
+                            <li><strong>High-Quality Materials:</strong> Sourcing premium materials that ensure longevity and resilience against weather conditions.</li><br> <!-- Added missing colon at the end -->
+                            <li><strong>Installation Services:</strong> Professional installation to guarantee the perfect fit and finish.</li>
+                        </ul><br><br>
+                        <p><strong class="tab-links" onclick="opentab('Why Choose Us?')">Why Choose Us?</strong></p><br>
+                        <ul>
+                            <li><strong>Expertise:</strong> With years of experience in the industry, we understand the unique challenges faced by fuel station operators and provide solutions that are both practical and appealing.</li><br>
+                            <li><strong>Quality Assurance:</strong> We take pride in our craftsmanship and rigorously test our products to ensure they meet the highest standards.</li><br>
+                            <li><strong>Customer-Centric Approach:</strong> Your satisfaction is our priority. We work closely with our clients to understand their vision and deliver tailored solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Petrol Pump Canopies</h2>
+                    <p>At Vidmahi Enterprises, we specialize in high-quality petrol pump canopies designed to enhance the visibility and functionality of your fuel station. Our canopies are not just structures; they are an essential component of your branding strategy. We understand that first impressions matter, and our tailored designs ensure your station stands out in a competitive market.</p>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Expert Installation</h2>
+                    <p>At Vidmahi Enterprises, our professional installation service ensures a perfect fit for your petrol pump canopies, tailored to the unique specifications of your site. Our dedicated installation team is trained in the latest techniques and best practices, ensuring that every canopy is securely and accurately fitted for long-lasting performance.</p>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-check-circle"></i>
+                    <h2>Quality Assurance</h2>
+                    <p>At Vidmahi Enterprises, quality assurance is at the core of our operations. We believe that our customers deserve the best, which is why every product we manufacture undergoes rigorous testing to ensure it meets the highest standards of safety and durability. Our commitment to excellence begins with sourcing premium materials and continues through every step of the manufacturing process.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- --------------------portfolio/work -------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../images/work1_enhanced.webp" alt="Custom Petrol Pump Canopy"> <!-- Added meaningful alt text -->
+                    <div class="layer">
+                        <h3>Custom Petrol Pump Canopy</h3>
+                        <p><strong>Tailored design enhancing visibility and branding for fuel stations.</strong></p>
+                        <br>
+                        <ul>
+                            <li><strong>Personalized Branding:</strong> Incorporate your brand colors, logos, and specific design elements to create a distinctive look.</li>
+                            <li><strong>Enhanced Visibility:</strong> Unique architectural designs and vibrant colors improve visibility, making your station easily recognizable from a distance.</li>
+                            <li><strong>Increased Customer Engagement:</strong> A visually appealing canopy creates an inviting atmosphere, encouraging customers to stop and refuel.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../images/IMG-20190910-WA0013_enhanced.jpg" alt="Weather-Resistant Canopy"> <!-- Added meaningful alt text -->
+                    <div class="layer">
+                        <h3>Weather-Resistant Canopy</h3>
+                        <p>Durable canopy designed to withstand harsh weather conditions.</p>
+                        <ul>
+                            <li><strong>Customizable Features:</strong> Options for colors, designs, and additional elements to match your branding.</li>
+                            <li><strong>Easy Maintenance:</strong> Low-maintenance design that allows for easy cleaning and upkeep.</li>
+                            <li><strong>Energy Efficiency:</strong> Options for integrated lighting solutions that enhance visibility without increasing energy costs.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../images/work6.jpeg" alt="Petrol Pump Canopy Installation"> <!-- Added meaningful alt text -->
+                    <div class="layer">
+                        <h3>Petrol Pump Canopy Installation</h3>
+                        <p>Expert installation services ensuring perfect fit and durability.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Professional Expertise:</strong> Our skilled installation team has extensive experience in the field, ensuring quality workmanship on every project.</li>
+                            <li><strong>Seamless Coordination:</strong> We work closely with you to schedule installations at your convenience.</li>
+                            <li><strong>Comprehensive Site Assessment:</strong> Prior to installation, we conduct a thorough site assessment to tailor the installation process to your specific needs.</li>
+                            <li><strong>Adherence to Safety Standards:</strong> We strictly follow safety protocols during installation to ensure a secure and safe environment for your staff and customers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="newtab.html" class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+    <!-- ---------------contact form------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">      
+                <div class="contact-left">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Leave Us a Few Words..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span> <!-- Ensure this ID is unique and not duplicated elsewhere -->
+                </div>
+                <div class="contact-right">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vidmahient.2021@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8109037432</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/profile.php?id=100078108274997"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/vidmahi_enterprises/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Vidmahi Enterprises. Made with <i class="fa-solid fa-heart"></i> by Deepak Pandey</p> <!-- Capitalized "Copyright" -->
+        </div>
+    </div>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0"; // Ensure this style property works as intended
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"; // Check that this closes the menu correctly
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw-TmOEpGzVDP3GPMKsk2vbeNvxrGK8NFr3jSuAAgIVEX4yHfppkCcfkhTnm76wii9uxg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg") // Ensure this ID is unique
+        
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function(){
+                        msg.innerHTML="";
+                    },5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+</html>
